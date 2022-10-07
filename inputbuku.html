@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf App</title>
+    <link rel="stylesheet" href="assets/css/inputbuku.css">
+    <link rel="stylesheet" href="assets/css/databuku.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="assets/img/book.png" alt="" width="30px">
+        <p class="title-project">Bookshelf App</p>
+    </nav>
+    <div>
+        <p class="title-copyright">&copy; Copyright <a href="">mpsalunggg</a></p>
+    </div>
+    <main>
+        <!-- <section class="button-redirect"> 
+            <button id="redirect-page"><img src="assets/img/search2.png" width="15px">Liat Data Buku</button>
+        </section> -->
+        <section class="part1_input">
+            <div class="part1-image">
+                <!-- <img src="assets/book2.png" alt="" width="20px"> -->
+                <p>Isi Data Buku Anda</p>
+            </div>
+            <form class="form-input" id="form-input">
+                <div class="input_text">
+                    <label for="">Judul</label>
+                    <input type="text" placeholder="Ex : Harry Potter" class="input" id="title-book">
+                </div>
+                <div class="input_text">
+                    <label for="">Penulis</label>
+                    <input type="text" placeholder="Ex : J. K. Rowling" class="input" id="author-book">
+                </div>
+                <div class="input_text">
+                    <label for="">Tahun</label>
+                    <input type="number" placeholder="Ex : 2020" class="input" id="date-book">
+                </div>
+                <div class="input_check">
+                    <label for="">Selesai Dibaca</label>
+                    <input type="checkbox" id="check-book">
+                </div>
+                <div class="input_check">
+                    <button class="button-submit" type="submit">Submit
+                    </button>
+                </div>
+            </form>
+        </section>
+        <section class="search_section">
+            <!-- <p class="text-search">Cari Buku (Opsional)</p> -->
+            <form id="searchBook" class="searchBook">
+                <input id="searchBookTitle" type="text" placeholder="Search Book">
+                <button id="searchSubmit" type="submit"><img id="image-load" src="assets/img/submit.png" alt="" width="20px"></button>
+            </form>
+        </section>
+        <section class="container_book">
+            <section class="book_shelf">
+                <p class="text-book">Belum selesai dibaca</p>
+                
+                <div id="incompleteBookshelfList" class="book_list">
+
+                </div>
+            </section>
+            <section class="book_shelf">
+                <p class="text-book">Selesai dibaca</p>
+                
+                <div id="completeBookshelfList" class="book_list">
+
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="assets/js/script.js"></script>
+    <!-- <script>
+    const button_redirect = document.querySelector('#searchSubmit').addEventListener('click', function() {
+        this.innerHTML = '<div class="redirect-load"></div>';
+        setTimeout(function() { 
+            
+            
+        }, 1500);
+    })
+    </script> -->
+</body>
+</html>

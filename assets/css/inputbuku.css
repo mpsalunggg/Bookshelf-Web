@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0; 
+    font-family: poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-project {
+    padding: 23px 10px;
+    margin: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.title-copyright {
+    text-align: center;
+    font-size: 12px;
+}
+
+main .part1_input{
+    width: 400px;
+    border-radius: 10px;
+    /* border: 2px solid; */
+    padding: 0 10px;
+    padding-bottom:20px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 200;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.part1_input > p{
+    padding-top : 20px;
+    text-align: center;
+}
+
+.button-submit {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input_text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px;
+}
+
+.input_check {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    border: none;
+    border-bottom: 1.5px solid;
+    outline: none;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.part1-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-redirect {
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Button Loading */
+#redirect-page {
+    width:30%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redirect-page > img {
+    margin-right: 5px;
+}
+
+.redirect-load {
+    pointer-events: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: rgb(0, 0, 0);
+    animation: an1 1s ease infinite;
+}
+
+@keyframes an1 {
+    0% {
+        transform: rotate(0turn);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+    
+}

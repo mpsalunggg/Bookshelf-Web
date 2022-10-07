@@ -1,0 +1,112 @@
+.container_book {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin-bottom:40px;
+}
+
+.book_shelf {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    /* border: 2px solid; */
+    padding: 0 5px;
+    padding-bottom:20px;
+    margin: 0px 20px;
+    font-size: 16px;
+    font-weight: 200;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.search_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:15px;
+}
+
+.text-search {
+    margin-top: 0;
+    margin-bottom:15px;
+}
+.searchBook {
+    background-color: white;
+    border-radius: 100px;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.searchBook > input {
+    width: 60%;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.searchBook > button {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 150px;
+    border: none;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 14px;
+}
+
+.searchBook > button > img {
+    margin-left: 14px;
+}
+/* 
+.searchBook > button:hover {
+    transform: scale(1.2);
+} */
+
+.text-book {
+    text-align: center;
+}
+
+.books-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 15px 10px;
+    background-color: rgb(61, 61, 61);
+    border-radius: 10px;
+    color: white;
+    margin:10px
+}
+
+.book-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.book-author {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.book-year {
+    text-align: right;
+}
+
+.button-container {
+    margin-top: 5px;
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button-container:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

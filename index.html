@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/inputbuku.css">
+    <style>
+        body{
+            background-color:black;
+            
+        }
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 170px;
+        } 
+        .title {
+            color: white;
+            font-size: 50px;
+            margin-left:15px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(-40px);
+        }
+        
+        button {
+            background-color: white;
+            color: black;
+            width: 100px;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="assets/img/book.png" alt="" width="80px">
+        <p class="title">Bookshelf App</p>
+    </div>
+    <div class="button">
+        <button id="next">Next</button>
+    </div>
+
+</body>
+<script>
+    const btn = document.getElementById('next').addEventListener('click', function(){
+        window.location.href = 'inputbuku.html';
+    })
+</script>
+</html>
